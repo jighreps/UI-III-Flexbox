@@ -61,6 +61,57 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 
+
+.services{
+	/* border:solid; */
+	width: 100%;
+	margin-left:21.5%;
+	font-size: 2em;
+	
+	
+}
+ .boxSection{
+	display:flex;
+	justify-content: space-evenly;
+	
+} 
+.boxes {
+	width: 16.5%;
+	margin: 50px;
+	border: solid;
+	text-align: center;	
+}
+
+.factspic {
+	display:flex;
+	justify-content: flex-end;
+	margin-right: 22%;
+}
+
+.servicesHeader{
+	display:flex;
+	justify-content: center;
+}
+.services-header-img {
+	width: 57%;
+	justify-content: center;
+}
+
+.services-info-img{
+	justify-content: flex-end;
+}
+.factList{
+	text-align:center;
+	width: 15%;
+	margin: 50px;
+	border:solid;
+	display:flex;
+}
+
+.serviceFacts{
+	justify-content: flex-end;
+}
+
 #container{
 	padding: 5%;
 	width: 70%;
